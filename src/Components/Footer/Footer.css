@@ -1,0 +1,42 @@
+.another{
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.Footer{
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: system;
+    position: relative;
+    padding: 2rem;
+}
+.column1{
+    margin: auto;
+    padding-top: 1rem;
+}
+.column2{
+    list-style-type: none;
+    text-align: center;
+}
+.column3{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.hr{
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    text-align: center;
+   color: white;
+
+}

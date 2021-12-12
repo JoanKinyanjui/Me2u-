@@ -1,0 +1,8 @@
+.Message{
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    text-align: center;
+    box-shadow: 3px 3px 8px rgb(255, 208, 0);
+    margin-top: 2rem;
+}

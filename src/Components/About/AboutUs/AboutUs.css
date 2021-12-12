@@ -1,0 +1,45 @@
+.Gallery{
+    width: 100%;
+    height: max-content;
+    display: flex;
+   align-content: center;
+   margin: auto;
+   background-color: rgb(255, 196, 0);
+   
+   
+
+}
+.item {
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    height: 10rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+    display: flex;
+    align-content: center;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .gallery1{
+    width: 20rem;
+    opacity: 0.8;
+  }
+  .caption{
+      width: 20rem;
+      text-align: left;
+      position: absolute;
+      font-size: 15px;
+
+  }
+ 
+@media  screen and (max-width:400px) {
+  .item{
+    height: 10rem;
+    width: 34rem;
+    float: left;
+
+
+    }
+  
+}

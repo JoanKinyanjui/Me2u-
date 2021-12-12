@@ -1,0 +1,31 @@
+.Roles{
+    width: 100vw;
+    height: 21vh;
+    display: flex;
+    background-color: transparent;
+    background-color: transparent;
+    padding: 2rem;
+    position: absolute;
+    top: 60%;
+}
+.Role1{
+ flex: 70%;
+text-align: left;
+}
+.Role1 div{
+    align-self: center;
+    margin: auto;
+}
+.Role2{
+flex: 20%;
+align-self: center;
+}
+.core{
+    list-style-type: circle;
+
+}
+.core li{
+    display: flex;
+    margin: auto;
+
+}

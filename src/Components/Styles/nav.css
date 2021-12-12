@@ -1,0 +1,36 @@
+.Nav{
+  width: 100vw;
+  height: 12vh;
+  background-color: white;
+}
+.Me2U{
+  display: flex;
+  position: absolute;
+  left: 5%;
+  text-align: center;
+  line-height: 12vh;
+}
+.me2u{
+  font-size: 50px;
+  font-family:Monotpe Corsiva ;
+  text-shadow: 5px 6px 8px black;
+}
+.yellow{
+  color:  rgb(255, 196, 0);
+  text-shadow: 5px 6px 8px   rgb(255, 196, 0);
+  font-size: 100px;
+}
+.nav-items{
+ list-style-type: none;
+ display: flex;
+ position: absolute;
+ right: 5%;
+ width: 50vw;
+ line-height: 6rem;
+}
+.nav-item{
+font-size: large;
+margin: auto;
+text-decoration: none;
+color: rgb(68, 31, 6);
+}

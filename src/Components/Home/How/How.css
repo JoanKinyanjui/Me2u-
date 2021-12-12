@@ -1,0 +1,66 @@
+.How{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.How1{
+    flex: 60%;
+    text-align: left;
+  
+}
+.Keep{
+    text-align: center;
+    font-weight: 100000px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-family: Cooper;
+}
+.How2{
+    flex: 40%;
+    background-position: center;
+    background-size: cover;
+}
+.Card{
+width: 400px;
+font-family: System;
+margin-top: 2rem;
+margin: auto;
+font-size: 15px;
+}
+.Card h3{
+ margin: auto;
+ text-align: center;
+}
+.Start-Working{
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+ 
+    color: white;
+
+}
+.working{
+display: flex;
+margin: auto;
+}
+.Limited{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+.limited{
+    flex: 60%;
+    align-self: center;
+    text-align: center;
+}
+.limited-img{
+    flex: 40%;
+    align-self: center;
+}
+.guy2{
+    width: 200px;
+    height: max-content;
+    margin: auto;
+}
