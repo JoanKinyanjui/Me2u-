@@ -1,12 +1,12 @@
 .Roles{
     width: 100vw;
-    height: 21vh;
+    height: 20vh;
     display: flex;
     background-color: transparent;
     background-color: transparent;
     padding: 2rem;
     position: absolute;
-    top: 60%;
+    top: 50%;
 }
 .Role1{
  flex: 70%;
@@ -28,4 +28,47 @@ align-self: center;
     display: flex;
     margin: auto;
 
+
+}
+@media only screen and(max-width:320px){
+    .Roles{
+        padding: 2rem;
+        top: 38%;
+    }
+    .Role1{
+        flex: 90%;
+       text-align: left;
+       font-size: 10px;
+       }
+       .fas{
+        visibility: hidden;
+    }
+}
+@media only screen and(max-width:360px){
+    .Roles{
+        padding: 2rem;
+        top: 40%;
+    }
+    .Role1{
+        flex: 80%;
+       text-align: left;
+       font-size: 12px;
+       }
+       .fas{
+        visibility: hidden;
+    }
+}
+@media only screen and(max-width:578px){
+    .Roles{
+        padding: 2rem;
+        top: 50%;
+    }
+    .Role1{
+        flex: 80%;
+       text-align: left;
+       font-size: 15px;
+       }
+       .fas{
+           visibility: hidden;
+       }
 }

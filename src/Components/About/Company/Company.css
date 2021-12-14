@@ -1,27 +1,44 @@
 .start{
+    margin: auto;
     margin-top: 2rem;
+    text-align: center;
 }
 .Company{
-    width: 100vw;
+    width: 100%;
     height: max-content;
     display: flex;
-    padding: 2rem;
+   align-content: center;
+   margin: auto;
+    padding: 1rem;
+    position: relative;
+   
 }
-.company-1{
-    width: 450px;
-    height: max-content;
-    margin: auto;
+.company-item{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 1rem;
     text-align: center;
-    border: 20px;
+    height: max-content;
+    margin-bottom: 2rem;
+    width: 45vw;
+    display: inline-block;
+    align-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: medium;
+    border-radius: 20px;
+    border-bottom: 1px black dashed;
 }
 .company-img{
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 30vh;
+    margin: auto;
 }
 .text-company{
-    width: 300px;
-    height: 200px;
+    width: 40vw;
+    height: max-content;
     margin: auto;
+
 
 }
 .text-company p{
@@ -43,4 +60,81 @@ h4{
 .working{
 display: flex;
 margin: auto;
+}
+@media only screen and(max-width:325px){
+    .Company{
+        width: 100%;
+        height: max-content;
+        display: flex;
+       align-content: center;
+       margin: auto;
+        padding: .5rem;
+        position: relative;
+       
+    }
+    .company-item{
+        position: relative;
+        padding-top: 5px;
+        text-align: center;
+        height: max-content;
+        margin-bottom: 1rem;
+        width: 90vw;
+        display: inline-block;
+        align-content: center;
+        margin: auto;
+        margin-top: 2rem;
+        border:olive 2px solid;
+        font-size: medium;
+    }
+    .company-img{
+        width: 70vw;
+        height: 20vh;
+        margin: auto;
+    }
+    .text-company{
+        width: 90vw;
+        height: max-content;
+        margin: auto;
+    
+  
+}
+}
+
+@media only screen and(max-width:48px){
+    .Company{
+        width: 100%;
+        height: max-content;
+        display: flex;
+       align-content: center;
+       margin: auto;
+        padding: .5rem;
+        position: relative;
+       
+    }
+    .company-item{
+        position: relative;
+        padding-top: 5px;
+        text-align: center;
+        height: max-content;
+        margin-bottom: 1rem;
+        width: 60vw;
+        display: inline-block;
+        align-content: center;
+        margin: auto;
+        margin-top: 2rem;
+        border:olive 2px solid;
+        font-size: medium;
+    }
+    .company-img{
+        width: 50vw;
+        height: 15vh;
+        margin: auto;
+    }
+    .text-company{
+        width: 60vw;
+        height: max-content;
+        margin: auto;
+    
+  
+}
 }

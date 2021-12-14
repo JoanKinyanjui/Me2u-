@@ -14,7 +14,7 @@ export const navItems =[
     },
 
     {
-    title:'Contact Us',
+    title:'Contact',
      path:'/contact',
      cName:'nav-item',
      id:1

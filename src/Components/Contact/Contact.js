@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Nav from '../Nav/Nav';
 import Message from '../Contact/Message/Message';
+import Footer from '../Footer/Footer';
 import Popup from './Popup/Popup';
 import '../Styles/contact.css';
 
@@ -23,7 +24,7 @@ function    Contact(){
        </Popup>
        
        <Message />
-       <img className='logo' src='/images/logo.jpeg'/>
+       <Footer />
 </div>
     )
 }

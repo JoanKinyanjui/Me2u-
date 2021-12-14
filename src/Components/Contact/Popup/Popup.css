@@ -1,15 +1,13 @@
 .Popup{
 position: absolute;
-height: 30vh;
+height: 40vh;
 background-color: rgb(35, 79, 209);
-display: flex;
 align-content: center;
 justify-content: center;
-width: 40vw;
+width: 60vw;
 margin: auto;
 left: 30%;
 top: 20%;
-
 
 }
 .inner{
@@ -17,12 +15,48 @@ top: 20%;
     padding: 32px;
     width: 100%;
     max-width: 600px;
-background-color: rgb(35, 79, 209);
+    background-color: rgb(35, 79, 209) ;
  
 }
 .inner-btn{
     position: absolute;
     top :16px;
     right: 16px;
+    padding: 3px;
 
+}
+
+@media only screen and (max-width:320px) {
+    .Popup{
+        height: 80vh;
+        width: 80vw;
+        left: 10%;
+        top: 23%;
+        background-color:  rgb(35, 79, 209);
+    }
+}
+@media only screen and (max-width:480px) {
+    .Popup{
+        height: 70vh;
+        width: 100vw;
+        left: 10%;
+        top: 20%;
+        background-color:  rgb(55, 84, 179);
+    }
+}
+@media only screen and (max-width:960px) {
+    .Popup{
+        height: 30vh;
+        width: 50vw;
+        left: 16%;
+        top: 25%;
+    }
+}
+@media only screen and (max-width:1600px) {
+    .Popup{
+        height: 30vh;
+        width: 50vw;
+        left: 16%;
+        top: 25%;
+    }
 }

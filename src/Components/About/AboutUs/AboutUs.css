@@ -1,13 +1,16 @@
-.Gallery{
+.start1{
+  width: 100vw;
+  text-align: center;
+  margin-top: 2rem;
+   margin: auto;
+   background-color: rgb(255, 196, 0);
+}.Gallery{
     width: 100%;
     height: max-content;
     display: flex;
    align-content: center;
    margin: auto;
    background-color: rgb(255, 196, 0);
-   
-   
-
 }
 .item {
     position: relative;
@@ -21,10 +24,6 @@
     margin: auto;
     margin-top: 2rem;
   }
-  .gallery1{
-    width: 20rem;
-    opacity: 0.8;
-  }
   .caption{
       width: 20rem;
       text-align: left;
@@ -34,12 +33,6 @@
   }
  
 @media  screen and (max-width:400px) {
-  .item{
-    height: 10rem;
-    width: 34rem;
-    float: left;
 
-
-    }
   
 }

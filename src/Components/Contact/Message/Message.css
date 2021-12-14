@@ -3,6 +3,31 @@
     height: 70vh;
     margin: auto;
     text-align: center;
-    box-shadow: 3px 3px 8px rgb(255, 208, 0);
+    box-shadow: 3px 3px 8px rgb(0, 94, 255);
     margin-top: 2rem;
+}
+
+@media only screen and(max-width: 360px) {
+    .Message{
+        width: 80vw;
+        height: 60vh;
+      
+        
+    }
+}
+@media only screen and(max-width: 480px) {
+    .Message{
+        width: 90vw;
+        height: 50vh;
+       
+        
+    }
+}
+@media only screen and(max-width: 960px) {
+    .Message{
+        width: 70vw;
+        height: 65vh;
+        
+        
+    }
 }

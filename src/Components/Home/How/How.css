@@ -6,7 +6,7 @@
     padding-bottom: 2rem;
 }
 .How1{
-    flex: 60%;
+    flex: 50%;
     text-align: left;
   
 }
@@ -18,16 +18,19 @@
     font-family: Cooper;
 }
 .How2{
-    flex: 40%;
+    flex: 50%;
     background-position: center;
     background-size: cover;
 }
+.how2{
+    width: 100%;
+}
 .Card{
-width: 400px;
+width: 300px;
 font-family: System;
 margin-top: 2rem;
 margin: auto;
-font-size: 15px;
+font-size: 13px;
 }
 .Card h3{
  margin: auto;
@@ -63,4 +66,75 @@ margin: auto;
     width: 200px;
     height: max-content;
     margin: auto;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width:480px) {
+    .How1{
+        width: 100vw;
+        height: 60vh;
+        background-image:url('/src/Components/images/guy5.png');
+        background-position: top;
+        background-size:cover;
+        background-repeat: no-repeat;
+        color:  black;
+        margin-top: 2rem;
+    }
+    .How2{
+        display: none;
+    }
+    .Card{
+        width: 320px;
+        font-family: System;
+        margin-top: 2rem;
+        margin: auto;
+        font-size: 12px;
+        margin-top: 2rem;
+        }
+        .guy2{
+            width: 100px;
+            height: max-content;
+            margin: auto;
+        }
+        .limited{
+            font-size: 12px;
+        }
+  }
+  
+
+@media only screen and(max-width:360px){
+  
+    .limited{
+        flex: 60%;
+        align-self: center;
+        text-align: center;
+        font-size: 10px;
+    }
+    .limited-img{
+        flex: 40%;
+        align-self: center;
+    }
+    .guy2{
+        width: 100px;
+        height: max-content;
+        margin: auto;
+    }
+}
+@media only screen and(max-width:320px){
+  
+    .limited{
+        flex: 60%;
+        align-self: center;
+        text-align: center;
+        font-size: 8px;
+    }
+    .limited-img{
+        flex: 40%;
+        align-self: center;
+    }
+    .guy2{
+        width: 80px;
+        height: max-content;
+        margin: auto;
+    }
 }

@@ -1,3 +1,5 @@
+
+   
 import React from 'react';
 import '../How/How.css';
 import {Button, Card, CardActions, CardContent, Typography} from '@material-ui/core'
@@ -27,7 +29,7 @@ function How (){
              </div>
 
             <div className='How2'>
-                 <img src= '/images/guy5.png'/>
+                 <img className='how2' src= '/images/guy5.png'/>
             </div>
         </div>
         <div className='Start-Working'>

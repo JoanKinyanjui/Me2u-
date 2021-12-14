@@ -6,18 +6,16 @@ import '../Styles/nav.css';
 import {TweenMax} from 'gsap';
 
 function Nav(){
-    
-    const [click,setClick]= useState(false);
-    const handleClick =()=>setClick(!click)
+
     let logoItem =useRef(null);
     useEffect(()=>{
         TweenMax.from(
             logoItem,{
-                rotation: 360,
-                duration: 5,
+                rotation: 720,
+                duration: 8,
                 repeat:-1,
                 color:'blue',
-                yoyo: true
+                yoyo: true,
             }
         )
     })
@@ -25,7 +23,7 @@ function Nav(){
     return(
 
   <div className='Nav'>
-      <nav className='navbar navbar-light'>
+      <nav className='navbar'>
           <div className='Me2U'>
           <div className='me2u'>..M</div>
           <div className='me2u'>e</div>
@@ -34,6 +32,7 @@ function Nav(){
           className='me2u yellow'>2</div>
           <div className='me2u'>U..</div>
           </div>
+         
        
           <ul className='nav-items'>
                     {navItems.map((item,id)=>{

@@ -5,6 +5,7 @@ import { Grid } from '@material-ui/core';
 function AboutUs(){
 return(
     <>
+    <h2 className='start1'>We Are Dedicated To Offer:</h2>
      <Grid  container className='Gallery'>
 
 <div className='item'>
