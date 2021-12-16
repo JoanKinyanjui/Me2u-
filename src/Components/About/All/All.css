@@ -24,7 +24,7 @@
 
 }
 .Follow-Us h4{
-    font-size: 50px;
+    font-size: 38px;
     font-family: 'Modern No. 20';
 
 }
@@ -39,15 +39,9 @@
         width: 80vw;
         position: absolute;
         top: 5%;
-        left: 20%;
-      
-    
+        left: 20%;  
     }
-    .Follow-Us h4{
-        font-size: 20px;
-        font-family: 'Modern No. 20';
-    
-    }
+   
 }
 @media only screen and(max-width:360px){
     .Follow-Us{
@@ -56,11 +50,7 @@
         top: 20%;
         left: 20%;
     }
-    .Follow-Us h4{
-        font-size: 22px;
-        font-family: 'Modern No. 20';
-    
-    }
+  
 }
 @media only screen and(max-width:578px){
     .Follow-Us{
@@ -70,8 +60,12 @@
         left: 20%;
     
     }
+
+}
+@media only screen and(min-width:400px) {
     .Follow-Us h4{
-        font-size: 350px;
+        font-size: 50px;
+        
         font-family: 'Modern No. 20';
     
     }

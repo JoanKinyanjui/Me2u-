@@ -171,11 +171,29 @@ color: white;
     font-size: 47px;
   }
   .nav-items{
-    right: 5%;
     width: 50vw;
    }
    .nav-item{
     font-size: medium;
   
+   }
+   .navbar{
+     left: 0;
+     position: absolute;
+   }
+}
+@media only screen and (max-width:1600px) {
+  .me2u{
+    font-size: 47px;
+  }
+  .nav-items{
+    width: 50vw;
+   }
+   .nav-item{
+    font-size: medium;
+   }
+   .navbar{
+     left: 0;
+     
    }
 }
