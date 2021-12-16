@@ -30,8 +30,8 @@
     border-bottom: 1px black dashed;
 }
 .company-img{
-    width: 20vw;
-    height: 30vh;
+    width: 25vw;
+    height: 20vh;
     margin: auto;
 }
 .text-company{
@@ -127,7 +127,7 @@ margin: auto;
     }
     .company-img{
         width: 50vw;
-        height: 15vh;
+        height: 10vh;
         margin: auto;
     }
     .text-company{

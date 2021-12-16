@@ -1,0 +1,93 @@
+.Good{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    display: flex;
+}
+.Good-img {
+  flex: 30%;
+  height: 80vh;
+  width: 100%;
+}
+.Good-img img{
+    width: max-content;
+    height: 70vh;
+    flex: 50%;   
+}
+
+.habit{
+    flex: 70%;
+    width: max-content;
+    height: 70vh;
+    right: 0;
+}
+.Good h3{
+    position: absolute;
+    top: 8%;
+    padding: 2rem;
+    font-weight: 20000000px;
+}
+@media only screen and (max-width:320px) {
+    .Good{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        background-color: rgb(30, 30, 20);
+        margin-top: 2rem;
+    }
+    .Good-img {
+      flex: 100%;
+      height: 70vh;
+      width: 100vw;
+      position: absolute;
+      opacity: 0.3;
+    }
+    .Good-img img{
+        width: 100%;
+        height: 70vh;
+        flex: 100%;   
+        opacity: 0.8;
+        margin: auto;
+    }
+    
+    .habit{
+        flex: 100%;
+        width: 100vw;
+        height: 70vh;
+        left: 0;
+    }
+    .Good h3{
+        top: 0%;
+    }
+}
+@media only screen and (max-width:900px) {
+    .Good{
+        width: 100vw;
+        height: 80vh;
+        position: relative;
+        display: flex;
+    }
+    .Good-img {
+      flex: 100%;
+      height: 70vh;
+      width: 100vw;
+      position: absolute;
+    }
+    .Good-img img{
+        width: 100%;
+        height: 70vh;
+        flex: 100%;   
+        opacity: 0.8;
+        margin: auto;
+    }
+    
+    .habit{
+        flex: 100%;
+        width: 100vw;
+        height: 70vh;
+        left: 0;
+     
+    }
+    
+}

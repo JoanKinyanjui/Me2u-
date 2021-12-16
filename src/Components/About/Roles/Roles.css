@@ -1,24 +1,25 @@
-.Roles{
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    background-color: transparent;
-    background-color: transparent;
-    padding: 2rem;
-    position: absolute;
-    top: 50%;
-}
-.Role1{
- flex: 70%;
-text-align: left;
-}
+  
+    .Roles{
+        flex: 100%;
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        background-color: transparent;
+        position: absolute;
+        padding-top: 0rem;
+        top: 16%;
+    }
+    .Role1{
+        font-weight: 100000px;
+        flex: 100%;
+       text-align: left;
+       font-size: 15px;
+       width: 100vw;
+       margin-top: 2rem;
+       }
 .Role1 div{
-    align-self: center;
+    align-self: left;
     margin: auto;
-}
-.Role2{
-flex: 20%;
-align-self: center;
 }
 .core{
     list-style-type: circle;
@@ -30,45 +31,41 @@ align-self: center;
 
 
 }
-@media only screen and(max-width:320px){
+
+@media only screen and(min-width:900px){
+   
     .Roles{
-        padding: 2rem;
-        top: 38%;
+        flex: 50%;
+        width: 50vw;
+        height: 70vh;
+        display: flex;
+        position: absolute;
+        padding-top: 4rem;
+        top: 25%;
     }
     .Role1{
-        flex: 90%;
-       text-align: left;
-       font-size: 10px;
-       }
-       .fas{
-        visibility: hidden;
+    text-align: left;
+    width: 50vw;
+    margin-top: 2rem;
+    }
+    .Role1 div{
+        align-self: left;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .core{
+        list-style-type: circle;
+    
+    }
+    .core li{
+        display: flex;
+        margin: auto;
+    
+    
     }
 }
-@media only screen and(max-width:360px){
+/* @media only screen and(max-width: 900px){
     .Roles{
-        padding: 2rem;
-        top: 40%;
-    }
-    .Role1{
-        flex: 80%;
-       text-align: left;
-       font-size: 12px;
+        top: 25%;
        }
-       .fas{
-        visibility: hidden;
-    }
-}
-@media only screen and(max-width:578px){
-    .Roles{
-        padding: 2rem;
-        top: 50%;
-    }
-    .Role1{
-        flex: 80%;
-       text-align: left;
-       font-size: 15px;
-       }
-       .fas{
-           visibility: hidden;
-       }
-}
+} */

@@ -9,25 +9,28 @@
     margin: auto;
 }
 .carousel-img{
-    width: 20vw;
+    width: 15vw;
     height: 10%;
-    border-radius: 100%;
-    box-shadow: rgb(0, 115, 255) 3px 3px 5px;
+    border-radius:90%;
+    box-shadow: black 3px 3px 5px;
     margin: auto;
 }
 .jumbotron{
     width: 100vw;
     height: 10vh;
-    background-color:  rgb(255, 196, 0);
+    background-color: transparent;
     text-align: center;
     display: table-cell;
+    margin-bottom: 2rem;
 }
 .h6{
     vertical-align: middle;
     line-height: 10vh;
     font-family: Monotype Corsiva;
     font-size: 30px;
-    color: rgb(44, 20, 20);
+    font-weight: 10000px;
+    color: black;
+    background-color:rgb(255, 187, 0) ;
 }
 
 

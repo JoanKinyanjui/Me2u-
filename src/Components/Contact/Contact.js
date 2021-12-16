@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Nav from '../Nav/Nav';
 import Message from '../Contact/Message/Message';
 import Footer from '../Footer/Footer';
 import Popup from './Popup/Popup';
@@ -16,7 +15,6 @@ function    Contact(){
 
     return(
 <div className='Contact'>
-    <Nav />
     <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
       <h2>Work With Us</h2><br/><br />
       <h3>Vist us    Now</h3><br/>

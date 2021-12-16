@@ -21,7 +21,7 @@ function How (){
                     <p>2.Key The Destination Of Your Package</p><br/>
                     <p>3.Submit Your Request and Wait For Our Guy To Come To You</p>
         <CardActions>
-            <Button>Get App</Button>
+            <Button><b>Get App</b></Button>
         </CardActions>
             
         </div>

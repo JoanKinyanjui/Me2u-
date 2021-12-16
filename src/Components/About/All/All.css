@@ -7,19 +7,25 @@
 .all{
     width: 100vw;
     height: 100vh;
-    background-image:url('/src/Components/images/delivery3.jpg');
+    background-image:linear-gradient(to bottom,transparent,transparent,rgb(247, 136, 17))  ,url('/src/Components/images/delivery3.jpg');
     background-position: top;
     background-size:cover;
     background-repeat: no-repeat;
-    color:  black;
+    color: black;
 }
 .Follow-Us{
     width: 70vw;
     position: absolute;
-    top: 30%;
-    left: 20%;
-    font-size: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 50%;
+    left: 18%;
+    font-size: 50px;
+    font-family: Cooper;
+    
+
+}
+.Follow-Us h4{
+    font-size: 50px;
+    font-family: 'Modern No. 20';
 
 }
 @media only screen and(max-width:325px){
@@ -34,8 +40,12 @@
         position: absolute;
         top: 5%;
         left: 20%;
+      
+    
+    }
+    .Follow-Us h4{
         font-size: 20px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Modern No. 20';
     
     }
 }
@@ -45,8 +55,10 @@
         position: absolute;
         top: 20%;
         left: 20%;
-        font-size: 25px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .Follow-Us h4{
+        font-size: 22px;
+        font-family: 'Modern No. 20';
     
     }
 }
@@ -56,8 +68,11 @@
         position: absolute;
         top: 30%;
         left: 20%;
-        font-size: 30px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .Follow-Us h4{
+        font-size: 350px;
+        font-family: 'Modern No. 20';
     
     }
 }

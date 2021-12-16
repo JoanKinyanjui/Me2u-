@@ -7,7 +7,7 @@ function Roles(){
 <div className='Roles'>
      <div className='Role1'>
          <div>
-             <h2>We're motivated by the desire to achieve:</h2>
+             <h4>We're motivated by the desire to achieve:</h4>
              <b>Vision</b><br />
              <p>To attain global recognition as an world's best courier 
                  delivery service with 100% customer satisfaction.</p>
@@ -23,10 +23,7 @@ function Roles(){
              </ul>
          </div>
      </div>
-     <div className='Role2'>
-         
-         <i class="fas fa-handshake fa-4x"></i>
-     </div>
+  
 </div>
 </>
     )
